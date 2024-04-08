@@ -1,3 +1,14 @@
+# React Real Estate UI Design
+
+## Technologies
+
+- Sass - Styling
+- Renact-router-dom - App routing
+- React-quill -
+- react-leaflet & leaflet - Interactive mapping
+
+## Features
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
