@@ -56,14 +56,17 @@ export const getPost = async (req, res) => {
               },
             },
           });
-          res.status(200).json({ ...post, isSaved: saved ? true : false });
+          return res
+            .status(200)
+            .json({ ...post, isSaved: saved ? true : false });
         }
       });
     }
-    res.status(200).json({ ...post, isSaved: false });
+
+    return res.status(200).json({ ...post, isSaved: false }); // Moved outside the if block
   } catch (err) {
     console.log(err);
-    res.status(500).json({ message: "Failed to get post" });
+    return res.status(500).json({ message: "Failed to get post" });
   }
 };
 
@@ -81,10 +84,10 @@ export const addPost = async (req, res) => {
         },
       },
     });
-    res.status(200).json(newPost);
+    res.status(200).json(newPost); // Send response here
   } catch (err) {
     console.log(err);
-    res.status(500).json({ message: "Failed to create post" });
+    res.status(500).json({ message: "Failed to create post" }); // Or send response here
   }
 };
 
