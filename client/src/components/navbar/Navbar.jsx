@@ -22,9 +22,6 @@ function Navbar() {
           <span>realestate name</span>
         </a>
         <a href="/">Home</a>
-        <a href="/">About</a>
-        <a href="/">Contact</a>
-        <a href="/">Agents</a>
       </div>
       <div className="right">
         {currentUser ? (
