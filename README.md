@@ -12,11 +12,9 @@ This app utilises real-time chat functionality to allow buyers and sellers of re
 - MongoDB - database
 - Prisma - ORM (Object-Relational Mapping) for database management
 - Bcrypt - Password hashing
-- CORS - Cross-Origin Resource Sharing middleware
 - Jsonwebtoken - authentication
 - Nodemon - Development server monitor
 - Dotenv - Environment variable management
-- Render - Deployment
 
 ## Features
 
