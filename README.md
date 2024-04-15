@@ -1,6 +1,6 @@
 This app utilises real-time chat functionality to allow buyers and sellers of real estate to communicate efficiently!
 
-**DOCUMENTATION:**
+**DOCUMENTATION:** https://app.eraser.io/workspace/GFdZQIsjKNF9a1LAjMk9?origin=share
 
 ---
 
