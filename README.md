@@ -1,5 +1,11 @@
 This app utilises real-time chat functionality to allow buyers and sellers of real estate to communicate efficiently!
 
+---
+
+<img width="1271" alt="Screenshot 2024-04-11 at 13 50 37" src="https://github.com/Meshclan1/real-estate-app/assets/100096778/413262f1-94bc-4dbd-baf8-991380a217d1">
+
+---
+
 ## Tech Stack
 
 - Socket.io-client - Real-time chat functionality
@@ -18,14 +24,14 @@ This app utilises real-time chat functionality to allow buyers and sellers of re
 
 ## Features
 
-- Real-time chat
-- App routing
-- HTTP request handling
-- Interactive maps
-- State management
-- Database management
-- Security middleware
-- Authentication
+- Real-time chat ✅
+- App routing ✅
+- HTTP request handling ✅
+- Interactive maps ✅
+- State management ✅
+- Database management ✅
+- Security middleware ✅
+- Authentication ✅
 
 
 # React + Vite
